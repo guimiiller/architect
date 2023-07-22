@@ -12,6 +12,7 @@
 :root {
     --text-white-color: #f5f5f5;
     --text-black-color: #000;
+    --border-text-color: #757575;
 }
 
 body {
@@ -193,7 +194,7 @@ header {
 .area1_text a {
     text-transform: uppercase;
     font-size: 14px;
-    border: 1px solid #757575;
+    border: 1px solid var(--border-text-color);
     padding: 10px 40px;
     color: var(--text-black-color);
     transition: all ease .3s;
@@ -239,7 +240,7 @@ header {
 
 
 .area2_grid div{
-    border: 1px solid #757575;
+    border: 1px solid var(--border-text-color);
     padding: 20px;
 }
 
@@ -254,7 +255,7 @@ header {
 
 .area2_grid p {
     font-size: 13px;
-    color: #757575;
+    color: var(--border-text-color);
 }
 
 .area3_content{
@@ -331,7 +332,7 @@ header {
 
 .area4_content a{
     border: none;
-    border: 1px solid #757575;
+    border: 1px solid var(--border-text-color);
     color: var(--text-black-color);
     padding: 10px 30px;
     transition: all ease .3s;
@@ -390,7 +391,7 @@ header {
 
 .area4_img_text p{
     font-size: 13px;
-    color: #757575;
+    color: var(--border-text-color);
 }
 
 .area5{
